@@ -21,7 +21,7 @@ namespace HttpClientAndPollyDemoWebApi.Controllers
         public async Task<IActionResult> CreateHttpClientManuallyWithoutUsing()
         {
             //this is approach is not good because every request will establish
-            //a new connection and leaving it opened till the object is alive
+            //a new connection and leaving it opened while the object is alive
             
             var httpClient = new HttpClient();
             var responseMessage = await httpClient.GetAsync("https://datausa.io/api/data?drilldowns=Nation&measures=Population");
