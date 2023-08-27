@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "P2oXrHhFE4W2tWvyb08PwDhPLrQgSPJgcEA5svAlya8=",
+  "Source": "HttpClientAndPollyDemoWebApi",
+  "BasePath": "_content/HttpClientAndPollyDemoWebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
